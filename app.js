@@ -20,5 +20,5 @@ app.use((req, res) => {
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`Servidor escuchando en puerto ${PORT}... Prueba: http://localhost:${PORT}/tareas`);
+  console.log(`Servidor funcionando en http://127.0.0.1:${PORT}`);
 });
